@@ -7,7 +7,7 @@ e2e-intro-description-more = OpenPGP を有効化するためのあなたの個�
 # Do not translate: S/MIME, CSR, CA
 e2e-csr-intro = 個人用の S/MIME 証明書を新たに取得するには、証明書署名要求 (CSR) を生成し、それを認証局 (CA) に送って証明書の発行を請求してください。
 # Do not translate: S/MIME, CSR
-e2e-csr-intro-info = CSR ファイルが保存されたローカルディレクトリーとファイル名を選択し、アルゴリズムと強度を設定するため、次の質問に回答してください。
+e2e-csr-intro-info = CSR ファイルを保存するローカルディレクトリーとファイル名を選択し、アルゴリズムと強度を設定するため、次の質問に回答してください。
 # A title for a dialog. Do not translate "CSR".
 e2e-csr-title = 証明書署名要求 (CSR) の生成
 # A label for a button that proceeds to the next step
