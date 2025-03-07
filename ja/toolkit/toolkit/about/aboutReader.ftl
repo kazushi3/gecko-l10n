@@ -125,3 +125,5 @@ about-reader-text-alignment-center =
     .title = 中央揃え
 about-reader-text-alignment-right =
     .title = 右揃え
+about-reader-text-alignment-justify =
+    .title = Justify text
