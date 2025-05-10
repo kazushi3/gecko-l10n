@@ -71,38 +71,38 @@ split-dismiss-button-default-label =
 # The 'account icon' is the toolbar button with a 'profile' icon of a human
 # head/shoulders. It's for dealing with your Mozilla account. When hovering the
 # icon, the tooltip says 'Account'.
-login-status-advisory-title = You’re signed out. Click the account icon to sign in.
+login-status-advisory-title = ログアウトしました。アカウントアイコンをクリックすると、ログインできます。
 
 ## Bookmarks toolbar callout strings
 
-bookmarks-toolbar-callout-1-title = Add this site to your bookmarks toolbar?
-bookmarks-toolbar-callout-1-subtitle = Your bookmark will be saved just below the address bar for quick access.
-bookmarks-toolbar-callout-1-primary-button-label = Add bookmark
-bookmarks-toolbar-callout-1-secondary-button-label = No Thanks
+bookmarks-toolbar-callout-1-title = このサイトをブックマークツールバーに追加しますか？
+bookmarks-toolbar-callout-1-subtitle = すばやくアクセスできるように、ブックマークはアドレスバーの下に保存されます。
+bookmarks-toolbar-callout-1-primary-button-label = ブックマークに追加
+bookmarks-toolbar-callout-1-secondary-button-label = いいえ、結構です
 # Visible if user adds a bookmark in callout 1, bookmarks toolbar is set to always show when this message renders
-bookmarks-toolbar-callout-2a-title = Easily add more bookmarks
-bookmarks-toolbar-callout-2a-subtitle = You can drag and drop tabs here to keep more of your favorite sites within reach.
-bookmarks-toolbar-callout-2a-primary-button-label = Got it
+bookmarks-toolbar-callout-2a-title = たくさんのブックマークを簡単に追加できます
+bookmarks-toolbar-callout-2a-subtitle = ここにタブをドラッグアンドドロップすると、たくさんのお気に入りのサイトを手の届くところに保存できます。
+bookmarks-toolbar-callout-2a-primary-button-label = 了解
 # Reverts the bookmarks toolbar to the default setting
-bookmarks-toolbar-callout-2a-secondary-button-label = Hide Toolbar
+bookmarks-toolbar-callout-2a-secondary-button-label = ツールバーを隠す
 # Visible if user declines to add a bookmark in callout 1, bookmarks toolbar is set to always show when this message renders
-bookmarks-toolbar-callout-2b-title = Keep your bookmarks toolbar open?
-bookmarks-toolbar-callout-2b-subtitle = You can add other sites you visit more often. Simply drag and drop tabs here to keep favorite websites within reach.
-bookmarks-toolbar-callout-2b-primary-button-label = Keep open
+bookmarks-toolbar-callout-2b-title = ブックマークツールバーを常に表示しますか？
+bookmarks-toolbar-callout-2b-subtitle = もっとよく訪問する他のサイトも追加できます。ここにタブをドラッグアンドドロップするだけで、たくさんのお気に入りのサイトを手の届くところに保存します。
+bookmarks-toolbar-callout-2b-primary-button-label = 常に表示
 # Reverts the bookmarks toolbar to the default setting
-bookmarks-toolbar-callout-2b-secondary-button-label = No thanks
+bookmarks-toolbar-callout-2b-secondary-button-label = いいえ、結構です
 
 ## Perplexity callout strings
 
-perplexity-callout-theme-1-title = Need the right answer, right away?
-perplexity-callout-theme-2-title = Try Perplexity: a new way to search
+perplexity-callout-theme-1-title = ただしい答えがただちに必要？
+perplexity-callout-theme-2-title = 新しい検索方法 Perplexity を試してください
 perplexity-callout-theme-1-subtitle-1 = Try Perplexity. Choose it from the search button when you want complete answers, sources included.
 perplexity-callout-theme-1-subtitle-2 = Ask questions. Get complete, well-cited answers. To try Perplexity, choose it from the search button.
 perplexity-callout-theme-2-subtitle-1 = Ask Perplexity. You’ll get complete answers, sources included.
 perplexity-callout-theme-2-subtitle-2 = Ask questions. Get complete, well-cited answers.
-perplexity-callout-primary-label = Ask Perplexity
-perplexity-callout-secondary-label-1 = Dismiss
-perplexity-callout-secondary-label-2 = Got it
+perplexity-callout-primary-label = Perplexity に尋ねる
+perplexity-callout-secondary-label-1 = 閉じる
+perplexity-callout-secondary-label-2 = 了解
 
 ## Sidebar Strings
 

@@ -273,6 +273,6 @@ contextual-manager-passwords-discard-changes-go-back-button = 戻る
 #   $total (number) - Total number of passwords
 contextual-manager-passwords-remove-all-passwords-checkbox =
     { $total ->
-        [1] Yes, remove password
-       *[other] Yes, remove passwords
+        [1] はい、このパスワードを削除します
+       *[other] はい、これらのパスワードを削除します
     }
