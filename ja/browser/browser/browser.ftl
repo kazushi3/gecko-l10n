@@ -1203,10 +1203,6 @@ popup-notification-addon-privatebrowsing-checkbox2 =
 popup-notification-addon-technical-and-interaction-checkbox =
     .label = 技術データと対話データを拡張機能の開発者に共有する
     .accesskey = S
-# Note: Access key is set to P to match "Private" in the corresponding localized label.
-popup-notification-addon-privatebrowsing-checkbox =
-    .label = プライベート@@Window@@で実行する
-    .accesskey = P
 
 ## Pop-up warning
 

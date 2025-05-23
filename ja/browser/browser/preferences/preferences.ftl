@@ -503,6 +503,8 @@ performance-default-content-process-count =
 ## General Section - Browsing
 
 browsing-title = ブラウジング
+browsing-group-label =
+    .aria-label = Browsing
 browsing-use-autoscroll =
     .label = 自動スクロール機能を使用する
     .accesskey = a
