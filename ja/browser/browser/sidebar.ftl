@@ -4,8 +4,6 @@
 
 menu-view-genai-chat =
     .label = AI チャットボット
-menu-view-review-checker =
-    .label = レビューチェッカー
 menu-view-contextual-password-manager =
     .label = パスワード
 sidebar-options-menu-button =
@@ -23,6 +21,11 @@ sidebar-history-date-this-month =
     .heading = { DATETIME($date, dateStyle: "full") }
 sidebar-history-date-prev-month =
     .heading = { DATETIME($date, month: "long", year: "numeric") }
+# When history is sorted by site, this heading is used in place of a domain, in
+# order to group sites that do not come from an outside host.
+# For example, this would be the heading for all file:/// URLs in history.
+sidebar-history-site-localhost =
+    .heading = (local files)
 sidebar-history-delete =
     .title = 履歴から削除します
 sidebar-history-clear =
@@ -65,6 +68,7 @@ sidebar-show-on-the-left =
 # hovers over it.
 expand-sidebar-on-hover =
     .label = カーソルを合わせた時にサイドバーを展開する
+sidebar-manage-extensions = Manage Extensions
 
 ## Labels for sidebar context menu items
 
@@ -98,6 +102,10 @@ sidebar-context-menu-customize-sidebar =
 #   $deviceName (String) - The name of the device the user is closing a tab for
 sidebar-context-menu-close-remote-tab =
     .label = { $deviceName } 端末上のタブを閉じる
+sidebar-context-menu-remove-extension2 =
+    .label = Remove from { -brand-short-name }
+sidebar-context-menu-unpin-extension =
+    .label = Remove from Sidebar
 
 ## Labels for sidebar history context menu items
 
@@ -120,10 +128,10 @@ sidebar-menu-bookmarks-label =
     .label = ブックマーク
 sidebar-menu-customize-label =
     .label = サイドバーをカスタマイズ
-sidebar-menu-review-checker-label =
-    .label = レビューチェッカー
 sidebar-menu-contextual-password-manager-label =
     .label = パスワード
+sidebar-menu-more-tools-label =
+    .label = More tools
 
 ## Tooltips for sidebar menu items.
 
