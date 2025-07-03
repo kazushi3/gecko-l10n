@@ -29,11 +29,7 @@ pending-crash-reports-always-send =
     .label = 自動的に送信
 # Variables:
 #   $reportCount (Number): the number of pending crash reports
-requested-crash-reports-message-new =
-    { $reportCount ->
-        [one] You have an unsent crash report related to crashes being investigated, sending it will help us improve { -brand-product-name }. Closing this notification will ignore this report.
-       *[other] You have { $reportCount } unsent crash reports related to crashes being investigated, sending them will help us improve { -brand-product-name }. Closing this notification will ignore these reports.
-    }
+requested-crash-reports-message-new = 調査中のものと関連する未送信のクラッシュレポートが { $reportCount } 件あります。レポートを送信すると { -brand-product-name } の改善に役立てられます。この通知を閉じると、このレポートが無視されます。
 # Variables:
 #   $reportCount (Number): the number of pending crash reports
 requested-crash-reports-message = 調査中のものと一致する未送信のクラッシュレポートが { $reportCount } 件あります。レポートを送信すると { -brand-product-name } の改善に役立てられます。この通知を閉じると、このレポートが無視されます。

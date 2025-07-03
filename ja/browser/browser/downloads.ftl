@@ -186,13 +186,13 @@ downloads-details =
 ## These strings are displayed in the private browsing view of the downloads panel
 
 downloads-private-browsing-details =
-    .title = Files stay on your device
-downloads-private-browsing-message = Anyone using this device can see downloads, even when you close all private windows.
+    .title = ファイルは端末に残ります
+downloads-private-browsing-message = すべてのプライベート@@Window@@を閉じても、この端末を使用するすべての人がダウンロードしたものを閲覧できます。
 downloads-private-browsing-delete-button =
-    .label = Delete files automatically
+    .label = ファイルを自動的に削除
     .accesskey = D
 downloads-private-browsing-accept-button =
-    .label = Got it
+    .label = 了解
     .accesskey = G
 
 ## Displayed when a site attempts to automatically download many files.

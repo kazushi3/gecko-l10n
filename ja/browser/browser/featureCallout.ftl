@@ -107,10 +107,10 @@ perplexity-callout-secondary-label-2 = 了解
 ## Account Adoption Passwords callout strings
 
 # Suggestion to backup passwords by signing up for Mozilla account and using sync
-fxa-adoption-passwords-title = Password saved. Let’s back it up.
-fxa-adoption-passwords-subtitle = Protect your passwords by syncing them to your devices with encryption.
+fxa-adoption-passwords-title = パスワードを保存しました。バックアップしませんか？
+fxa-adoption-passwords-subtitle = パスワードを暗号化して端末間で同期し、保護できます。
 # Opens Mozilla accounts sign-up page
-fxa-adoption-passwords-primary-button-label = Sign up
+fxa-adoption-passwords-primary-button-label = ログイン
 
 ## Sidebar Strings
 
@@ -135,14 +135,14 @@ sidebar-pins-callout-cta-button = タブをピン留め
 
 ## Pinning Tabs Strings
 
-pin-tabs-callout-1-title = Keep important tabs within reach
-pin-tabs-callout-1-subtitle = Drag a tab to the start of the tab strip to pin it. Or right-click and choose Pin Tab.
-pin-tabs-callout-cta-1-button = Pin this tab
-pin-tabs-callout-2-title = Pin tabs you visit the most
-pin-tabs-callout-2-subtitle = To pin any tab, drag it to the start of the tab strip. Or right-click and choose Pin Tab.
-pin-tabs-callout-cta-2-button = Pin this tab
-pin-tabs-callout-3-title = Keep important sites within reach
-pin-tabs-callout-4-title = Pin sites you visit the most
+pin-tabs-callout-1-title = 重要なタブを手の届く場所に
+pin-tabs-callout-1-subtitle = タブバーの先頭にドラッグするとピン留めできます。右クリックして@@[@@タブをピン留め@@]@@を選択する方法もあります。
+pin-tabs-callout-cta-1-button = このタブをピン留め
+pin-tabs-callout-2-title = よく訪問するタブをピン留めできます
+pin-tabs-callout-2-subtitle = タブバーの先頭にドラッグするとピン留めできます。右クリックして@@[@@タブをピン留め@@]@@を選択する方法もあります。
+pin-tabs-callout-cta-2-button = このタブをピン留め
+pin-tabs-callout-3-title = 重要なサイトを手の届く場所に
+pin-tabs-callout-4-title = よく訪問するサイトをピン留めできます
 
 ## Sidebar Onboarding Strings
 
