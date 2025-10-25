@@ -17,8 +17,10 @@ unified-extensions-empty-reason-private-browsing-not-allowed = 拡張機能は�
 unified-extensions-empty-reason-extension-not-enabled = 拡張機能はインストールされていますが、無効になっています
 # In this headline, “Level up” means to enhance your browsing experience.
 unified-extensions-empty-reason-zero-extensions-onboarding = 拡張機能でブラウザーをレベルアップ
-unified-extensions-empty-content-explain-enable = @@[@@{ unified-extensions-item-message-manage }@@]@@ を選択し、設定で拡張機能を有効にしてください。
-unified-extensions-empty-content-explain-manage = @@[@@{ unified-extensions-item-message-manage }@@]@@ を選択し、設定で拡張機能を管理してください。
+# unified-extensions-empty-content-explain-enable = @@[@@{ unified-extensions-item-message-manage }@@]@@ を選択し、設定で拡張機能を有効にしてください。(^^k
+unified-extensions-empty-content-explain-enable2 = Select “{ unified-extensions-manage-extensions.label }” to enable them in settings.(^^k
+# unified-extensions-empty-content-explain-manage = @@[@@{ unified-extensions-item-message-manage }@@]@@ を選択し、設定で拡張機能を管理してください。(^^k
+unified-extensions-empty-content-explain-manage2 = Select “{ unified-extensions-manage-extensions.label }” to manage them in settings.(^^k
 unified-extensions-empty-content-explain-extensions-onboarding = 見た目や動作を変更したり、プライバシーやセキュリティを強化したりして、{ -brand-short-name } をパーソナライズしませんか？
 
 ## An extension in the main list
@@ -90,3 +92,5 @@ unified-extensions-mb-blocklist-error-multiple =
            *[other] { $extensionsCount } 個の拡張機能が無効です
         }
     .message = 複数の拡張機能が Mozilla のポリシーに違反しているため無効になっています。
+unified-extensions-notice-safe-mode =
+    .message = All extensions have been disabled by Troubleshoot Mode.(^^k

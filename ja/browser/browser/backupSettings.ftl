@@ -21,8 +21,12 @@ backup-folder-name = { -brand-product-name } の復元
 backup-file-name = { -brand-product-name }Backup
 settings-data-backup-header = バックアップ
 settings-data-backup-toggle = バックアップを管理
+settings-data-backup-toggle-on = Turn on backup(^^k
+settings-data-backup-toggle-off = Turn off backup(^^k
 settings-data-backup-trigger-button = 今すぐバックアップ
 settings-data-backup-in-progress-button = バックアップ中...
+settings-data-backup-in-progress-message =
+    .message = Backup in progress…(^^k
 settings-data-backup-scheduled-backups-on = バックアップ: 有効
 settings-data-backup-scheduled-backups-off = バックアップ: 無効
 settings-data-backup-scheduled-backups-description = ブックマークや履歴などのデータを自動的に保護します。<a data-l10n-name="support-link">詳細情報</a>

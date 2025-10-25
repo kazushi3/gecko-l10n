@@ -12,6 +12,9 @@ existing-user-tou-learn-more = 詳細情報
 # Text for primary button
 existing-user-tou-accept = 承諾
 
+# Infobar message for when the Privacy Notice is updated.
+existing-user-privacy-notice-update-message = We’ve updated our <a data-l10n-name="privacy-notice-link">Privacy Notice</a> to reflect the latest features in { -brand-short-name }.(^^k
+
 ## Existing User Terms of Use Spotlight
 
 # Full Spotlight body message, with inline links to the Terms of Use, Privacy Notice, and Learn More FAQ that will be added at runtime.
