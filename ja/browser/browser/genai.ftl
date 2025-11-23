@@ -112,6 +112,8 @@ genai-menu-no-provider-2 =
 genai-chatbot-title = AI chatbot
 genai-header-provider-menu =
     .title = チャットボットを選んでください
+genai-header-settings-button =
+    .title = AI Chat settings
 genai-header-options-button =
     .title = メニューを開く
 genai-header-close-button =
@@ -264,3 +266,7 @@ link-preview-setup-faster-next-time = 次回以降はさらに早く要点が表
 link-preview-onboarding-button = プレビューを表示
 # Onboarding card Close button
 link-preview-onboarding-close = 閉じる
+# Title for the first-time setup modal
+link-preview-first-time-setup-title = First-time setup
+# Message for the first-time setup modal
+link-preview-first-time-setup-message = This may take a moment. You’ll see key points more quickly next time.
