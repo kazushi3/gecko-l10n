@@ -2,36 +2,36 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-customkeys-title = Keyboard Shortcuts
-customkeys-search = Search:
-customkeys-change = Change
-customkeys-reset = Reset
-customkeys-clear = Clear
-customkeys-new-key = Press new key:
-customkeys-reset-all = Reset all shortcuts to defaults
+customkeys-title = キーボードショートカット
+customkeys-search = 検索:
+customkeys-change = 変更
+customkeys-reset = リセット
+customkeys-clear = クリア
+customkeys-new-key = 新しいキーを入力:
+customkeys-reset-all = すべてのショートカットを@@DefaultValue@@に戻す
 # Variables
 # $conflict (string) - The title of the conflicting shortcut.
-customkeys-conflict-confirm = This key is already assigned to { $conflict }. Do you want to replace it?
-customkeys-reset-all-confirm = Are you sure you wish to reset all keyboard shortcuts to their defaults?
-customkeys-history-reopen-tab = Reopen Last Closed Tab
-customkeys-history-reopen-window = Reopen Last Closed window
-customkeys-dev-tools = Web Developer Tools
-customkeys-dev-inspector = DOM and Style Inspector
-customkeys-dev-webconsole = Web Console
-customkeys-dev-debugger = JavaScript Debugger
-customkeys-dev-network = Network Monitor
-customkeys-dev-style = Style Editor
-customkeys-dev-performance = Performance
-customkeys-dev-storage = Storage Inspector
+customkeys-conflict-confirm = このキーは既に { $conflict } に割り当てられています。置き換えますか？
+customkeys-reset-all-confirm = 本当にすべてのショートカットを@@DefaultValue@@に戻しますか？
+customkeys-history-reopen-tab = 最後に閉じたタブを開きなおす
+customkeys-history-reopen-window = 最後に閉じた@@Window@@を開きなおす
+customkeys-dev-tools = ウェブ開発ツール
+customkeys-dev-inspector = DOM とスタイルのインスペクター
+customkeys-dev-webconsole = ウェブコンソール
+customkeys-dev-debugger = JavaScript デバッガー
+customkeys-dev-network = ネットワークモニター
+customkeys-dev-style = スタイルエディター
+customkeys-dev-performance = パフォーマンス
+customkeys-dev-storage = ストレージインスペクター
 customkeys-dev-dom = DOM
-customkeys-dev-accessibility = Accessibility
-customkeys-dev-profiler-toggle = Start/Stop the Performance Profiler
-customkeys-dev-profiler-capture = Capture a Performance Profile
-customkeys-category-navigation = Navigation
-customkeys-nav-back = Back
-customkeys-nav-forward = Forward
-customkeys-nav-home = Home
-customkeys-nav-reload = Reload
-customkeys-nav-reload-skip-cache = Reload (Override Cache)
-customkeys-nav-stop = Stop
-customkeys-caution-message = This feature is experimental and may not work as expected.
+customkeys-dev-accessibility = アクセシビリティ
+customkeys-dev-profiler-toggle = パフォーマンスプロファイラーの開始/停止
+customkeys-dev-profiler-capture = パフォーマンスプロファイラーをキャプチャー
+customkeys-category-navigation = ナビゲーション
+customkeys-nav-back = 戻る
+customkeys-nav-forward = 進む
+customkeys-nav-home = ホーム
+customkeys-nav-reload = 再読み込み
+customkeys-nav-reload-skip-cache = 再読み込み (キャッシュをオーバーライド)
+customkeys-nav-stop = 停止
+customkeys-caution-message = この機能は試験的で、予期せぬ動作をする場合があります。

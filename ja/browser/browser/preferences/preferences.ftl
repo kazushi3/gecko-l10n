@@ -60,7 +60,7 @@ pane-experimental-description2 = 高度な設定を変更すると、{ -brand-sh
 settings-pane-labs-title = { -firefoxlabs-brand-name }
 settings-category-labs =
     .tooltiptext = { -firefoxlabs-brand-name }
-pane-experimental-description4 = Give our experimental features a try! They’re in development and evolving, which could impact how { -brand-short-name } works. We only receive data about your use of these features if you have <a data-l10n-name="data-collection">technical and interaction data</a> turned on.
+pane-experimental-description4 = 試験的な機能を試してみてください！ 現在開発中ですが、{ -brand-short-name } の動作にインパクトを与えることでしょう。<a data-l10n-name="data-collection">技術データと対話データ</a> を有効にしている場合のみ、これらの機能の使用状況についてのデータを受け取ります。
 pane-experimental-description3 = 実験的な機能を試してみてください！ 現在開発中ですが、{ -brand-short-name } の動作にインパクトを与えることでしょう。
 pane-experimental-reset =
     .label = @@DefaultValue@@に戻す
@@ -114,7 +114,7 @@ extension-controlling-proxy-config = <img data-l10n-name ="icon"/> <strong>{ $na
 # <img data-l10n-name="addons-icon"/> will be replaced with Add-ons icon
 # <img data-l10n-name="menu-icon"/> will be replaced with Menu icon
 extension-controlled-enable = 拡張機能を有効にするには、<img data-l10n-name="menu-icon"/> メニューから <img data-l10n-name="addons-icon"/> アドオンを開きます。
-extension-controlled-enable-2 = To re-enable this extension visit <a data-l10n-name="addons-link">Extensions and themes</a>.
+extension-controlled-enable-2 = 拡張機能を再度有効にするには、<a data-l10n-name="addons-link">拡張機能とテーマ</a> を開きます。
 # This string is shown to notify the user that their home page or new tab preferences
 # are being controlled by an extension.
 extension-controlling-homepage = { $name } がホームページ設定の一部を制御しています。
@@ -677,8 +677,8 @@ home-prefs-stories-header =
     .label = ストーリー
 home-prefs-stories-description = ユーザーの行動に基いてパーソナライズされたストーリー
 home-prefs-stories-header2 =
-    .label = Stories
-    .description = Exceptional content curated by the { -brand-product-name } family
+    .label = ストーリー
+    .description = { -brand-product-name } ファミリーが厳選した注目のコンテンツ
 
 ##
 
@@ -710,23 +710,23 @@ home-prefs-weather-header =
 home-prefs-weather-description = 一目でわかる今日の天気
 home-prefs-weather-learn-more-link = 詳細情報
 home-prefs-widgets-header =
-    .label = Widgets
+    .label = ウィジェット
 home-prefs-trending-search-header =
     .label = トレンド検索
 home-prefs-trending-search-description = 人気があり頻繁に検索されているトピックです
 # Lists is a widget on New Tab, similar to a to-do widget
 home-prefs-lists-header =
-    .label = Lists
+    .label = リスト
 # Timer is a widget on New Tab, similar to the Pomodoro timer.
 home-prefs-timer-header =
-    .label = Timer
+    .label = タイマー
 # "Support" here means to help sustain or contribute to something, especially through funding or sponsorship.
 home-prefs-support-firefox-header =
     .label = { -brand-product-name } を支援
 home-prefs-mission-message = スポンサーは、より良いウェブを構築するという私たちの使命を支援しています
 home-prefs-mission-message-learn-more-link = 支援の詳細情報
 home-prefs-mission-message2 =
-    .message = Our sponsors support our mission to build a better web.
+    .message = スポンサーは、より良いウェブを構築するという私たちの使命を支援しています。
 home-prefs-manage-topics-link = トピックを管理
 home-prefs-choose-wallpaper-link = 壁紙を選択
 # Variables:
@@ -1035,14 +1035,14 @@ forms-ask-to-save-logins =
 pane-privacy-passwords-header = パスワード
     .searchkeywords = ログイン情報
 forms-passwords-header =
-    .label = Passwords
-    .aria-label = Passwords
+    .label = パスワード
+    .aria-label = パスワード
 # Checkbox to control whether UI is shown to users to save or fill logins/passwords.
 forms-ask-to-save-passwords =
     .label = パスワードを保存するか確認する
     .accesskey = A
 forms-manage-password-exceptions =
-    .label = Manage password exceptions
+    .label = パスワードの例外を管理
     .accesskey = M
 forms-exceptions =
     .label = 例外サイト...
@@ -1075,13 +1075,13 @@ forms-fill-usernames-and-passwords =
     .label = 自動的にユーザー名とパスワードを入力する
     .accesskey = F
 forms-fill-usernames-and-passwords-2 =
-    .label = Save and autofill usernames and passwords
+    .label = ユーザー名とパスワードを保存して自動入力する
     .accesskey = f
 forms-saved-passwords =
     .label = 保存されたパスワード
     .accesskey = d
 forms-saved-passwords-2 =
-    .label = Manage saved passwords
+    .label = 保存されたパスワードを管理
     .accesskey = d
 forms-saved-passwords-searchkeywords = Logins for the following sites are stored on your computer
 # Header for additional protections when managing password settings.
