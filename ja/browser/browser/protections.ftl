@@ -147,3 +147,44 @@ bar-tooltip-fingerprinter =
 bar-tooltip-cryptominer =
     .title = 暗号通貨マイニング
     .aria-label = { $count } 個の暗号通貨マイニング ({ $percentage }%)
+# Privacy Metrics Card
+privacy-metrics-title = Privacy Protections(^^k
+# Variables:
+#   $count (Number) - Total number of trackers blocked this week
+privacy-metrics-blocked-this-week =
+    { $count ->
+        [one] { $count } blocked this week(^^k
+       *[other] { $count } blocked this week(^^k
+    }
+# Variables:
+#   $count (Number) - Number of trackers blocked
+privacy-metrics-trackers =
+    { $count ->
+        [one] { $count } tracker(^^k
+       *[other] { $count } trackers(^^k
+    }
+# Variables:
+#   $count (Number) - Number of fingerprinters blocked
+privacy-metrics-fingerprinters =
+    { $count ->
+        [one] { $count } fingerprinter(^^k
+       *[other] { $count } fingerprinters(^^k
+    }
+# Variables:
+#   $count (Number) - Number of tracking cookies blocked
+privacy-metrics-cookies =
+    { $count ->
+        [one] { $count } tracking cookie(^^k
+       *[other] { $count } tracking cookies(^^k
+    }
+# Variables:
+#   $count (Number) - Number of social trackers blocked
+privacy-metrics-social =
+    { $count ->
+        [one] { $count } social tracker(^^k
+       *[other] { $count } social trackers(^^k
+    }
+privacy-metrics-empty = No trackers blocked this week. { -brand-short-name } protects you from the following threats as you browse.(^^k
+privacy-metrics-loading = Loading protection stats…(^^k
+privacy-metrics-error = Unable to load protection stats.(^^k
+privacy-metrics-private-window = { -brand-short-name } continues to block trackers in Private Windows, but does not keep a record of what was blocked.(^^k

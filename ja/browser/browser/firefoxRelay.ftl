@@ -18,6 +18,21 @@ firefox-relay-must-login-to-account = { -relay-brand-name } メールマスク�
 firefox-relay-get-unlimited-masks =
     .label = マスクを管理
     .accesskey = M
+# $count (Number) - The number of free email masks the user has used
+firefox-relay-reuse-masks-header =
+    { $count ->
+       *[other] You’ve used all { $count } free email masks(^^k
+    }
+# Description following warning that the user has used all their free email masks.
+# The user is presented a list of recently used masks to select, or they can click a button to see all masks.
+firefox-relay-reuse-masks-description-v2 = You can reuse one or see all masks to choose a different one.(^^k
+firefox-relay-reuse-masks-select-label = Select a recent mask(^^k
+firefox-relay-see-all-masks =
+    .label = See all masks(^^k
+    .accesskey = S
+firefox-relay-dismiss =
+    .label = Dismiss(^^k
+    .accesskey = D
 # This is followed, on a new line, by firefox-relay-opt-in-subtitle-1
 firefox-relay-opt-in-title-1 = メールアドレスを保護しましょう:
 firefox-relay-opt-in-title-2 = 無料のメールマスクを入手しましょう

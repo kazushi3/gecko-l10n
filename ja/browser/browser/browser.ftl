@@ -300,7 +300,7 @@ urlbar-split-view-button =
 
 clear-search-history =
     .label = 検索履歴を消去
-    .accesskey = C
+    .accesskey = H
 
 ## Page Action Context Menu
 
@@ -410,6 +410,9 @@ quickactions-cmd-help = help, support
 # Opens the devtools web inspector
 quickactions-inspector2 = 開発ツールを開く
 quickactions-cmd-inspector2 = inspector, devtools, dev tools
+# Opens Firefox Library
+quickactions-cmd-library = library(^^k
+quickactions-library = Open Library(^^k
 quickactions-cmd-inspector = inspector, devtools
 # Opens about:logins
 quickactions-logins2 = パスワードを管理
@@ -1165,6 +1168,29 @@ toolbar-button-email-link =
 toolbar-button-logins =
     .label = パスワード
     .tooltiptext = 保存されているパスワードを表示、管理します
+qrcode-panel-error =
+    .message = Failed to generate QR code. Please try again.(^^k
+qrcode-copy-button =
+    .label = Copy(^^k
+qrcode-copy-success =
+    .message = QR code copied to clipboard.(^^k
+qrcode-copy-error =
+    .message = Failed to copy QR code.(^^k
+qrcode-save-button =
+    .label = Save(^^k
+qrcode-save-success =
+    .message = QR code saved.(^^k
+qrcode-save-error =
+    .message = Failed to save QR code.(^^k
+qrcode-save-title = Save QR Code(^^k
+qrcode-save-filter-png = PNG Image(^^k
+qrcode-save-filename = qrcode.png(^^k
+qrcode-window-title = QR Code(^^k
+qrcode-dialog-title = QR Code(^^k
+qrcode-image =
+    .aria-label = QR code(^^k
+qrcode-close-button =
+    .aria-label = Close(^^k
 # Variables:
 #  $shortcut (String): keyboard shortcut to save a copy of the page
 toolbar-button-save-page =
@@ -1205,6 +1231,15 @@ panel-save-update-password = パスワード
 # "More" item in macOS share menu
 menu-share-more =
     .label = その他...
+# Variables:
+#   $count (Number) - The number of links that will be copied.
+menu-share-copy-links =
+    .label =
+        { $count ->
+            [one] Copy Link(^^k
+           *[other] Copy { $count } Links(^^k
+        }
+    .accesskey = L
 menu-share-copy-link =
     .label = リンクをコピー
     .accesskey = L

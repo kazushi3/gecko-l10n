@@ -24,6 +24,10 @@ ipprotection-title = VPN
 ## Feature introduction callout
 
 ipprotection-feature-introduction-title = ブラウザーに内蔵された VPN をご紹介します
+ipprotection-feature-introduction-link-text-2 = Use our new <a data-l10n-name="learn-more-vpn">built-in VPN</a> to hide your location and protect your data.(^^k
+ipprotection-feature-introduction-link-text-private-browsing-2 = Use our new <a data-l10n-name="learn-more-vpn">built-in VPN</a> to hide your location and protect your data, even when you’re in a Private Window.(^^k
+ipprotection-feature-introduction-description-private-browsing = Browse with extra protection by hiding your location, even when you’re in a Private Window.(^^k
+ipprotection-feature-introduction-description-captive-portal = Browse with extra protection by hiding your location, even on public Wi-Fi.(^^k
 ipprotection-feature-introduction-button-primary = 次へ
 ipprotection-feature-introduction-button-secondary-not-now = 後で
 ipprotection-feature-introduction-button-secondary-no-thanks = いいえ、結構です
@@ -37,6 +41,8 @@ ipprotection-site-settings-callout-button = 了解
 ## Panel
 
 unauthenticated-vpn-title = { -brand-product-name } の組み込み VPN をお試しください
+unauthenticated-hide-location-message-3 = <a data-l10n-name="learn-more-vpn">Hide your location</a> while browsing in { -brand-product-name }.(^^k
+unauthenticated-hide-location-message-2 = Hide your location while browsing in { -brand-product-name }.(^^k
 # Variables
 #   $maxUsage (number) - The maximum amount of data a user can use in a month (in GB)
 unauthenticated-bandwidth-limit-message = 無料の VPN データを毎月 { $maxUsage } GB 入手しましょう。
@@ -85,8 +91,11 @@ upgrade-vpn-button = { -mozilla-vpn-brand-name } を試す
 
 ipprotection-connection-status-generic-error-title = VPN に接続できませんでした
 ipprotection-connection-status-generic-error-description = 数分後にもう一度試してください。
+ipprotection-connection-status-generic-error-try-again = Please try again later.(^^k
 ipprotection-connection-status-network-error-title = インターネット接続を確認してください
 ipprotection-connection-status-network-error-description = インターネットに接続してから、VPN をオンにしてみてください。
+ipprotection-connection-status-blocked-error-title = VPN is unavailable(^^k
+ipprotection-connection-status-blocked-error-description = Local laws prevent us from providing VPN service in this region. <a data-l10n-name="learn-more-link">Learn more</a>(^^k
 # Variables
 #   $usageLeft (number) - The amount of data a user has left in a month (in GB)
 #   $maxUsage (number) - The maximum amount of data a user can use in a month (in GB)
@@ -117,6 +126,9 @@ ip-protection-bandwidth-warning-infobar-message-75 = <strong>VPN データの使
 # Variables
 #   $usageLeft (number) - The amount of data a user has left in a month (in GB)
 ip-protection-bandwidth-warning-infobar-message-90 = <strong>VPN データがほぼ上限まで使用されています。</strong> 残り { $usageLeft } GB です。すべて使い果たすと、来月初めに使用量がリセットされるまで VPN が利用できなくなります。
+# Variables
+#   $usageLeft (number) - The amount of data a user has left in a month (in MB)
+ip-protection-bandwidth-warning-infobar-message-90-mb = <strong>You’re almost out of VPN data.</strong> You have { $usageLeft } MB left. Once you use it all, your VPN will pause until your data resets on the first of next month.(^^k
 
 ## IP Protection Settings
 
@@ -126,6 +138,11 @@ ip-protection-description =
 ip-protection-learn-more = 詳細情報
 ip-protection-site-exceptions =
     .label = サイト固有の設定
+# Variables:
+#   $maxUsage (number) - The bandwidth limit of free VPN, in GB
+ip-protection-not-opted-in-2 =
+    .heading = Try { -brand-short-name }’s built-in VPN(^^k
+    .message = Hide your location while browsing in { -brand-short-name }. Get { $maxUsage } GB of free VPN data every month.(^^k
 ip-protection-not-opted-in-button = はじめる
 # Variables:
 #   $count (number) - The number of sites saved as VPN exclusions.
@@ -173,6 +190,7 @@ ip-protection-bandwidth-hit-for-the-month = VPN データが上限の { $maxUsag
 # Variables
 #   $maxUsage (number) - The maximum amount of data a user can use in a month (in GB)
 ip-protection-bandwidth-help-text = 毎月初めに残り { $maxUsage } GB にリセットされます。
+ip-protection-bandwidth-header-1 = Monthly data limit(^^k
 
 ## IP Protection bandwidth reset callout
 
@@ -184,6 +202,8 @@ ipprotection-bandwidth-reset-button = 了解
 
 ## IP Protection add-on breakage warnings
 
+ipp-activator-breakage-sign-in-warning = <strong>This website may not work with a VPN.</strong> Try signing in or turning VPN off while you use this website.(^^k
+ipp-activator-breakage-turn-off-warning = <strong>This website may not work with a VPN.</strong> Try turning VPN off while you use this website.(^^k
 
 ## IP Protection alerts
 
