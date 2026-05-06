@@ -68,6 +68,15 @@ category-sync3 =
 pane-ai-controls-title = AI 制御
 category-ai-controls =
     .tooltiptext = { pane-ai-controls-title }
+pane-about-firefox-title = About { -brand-short-name }(^^k
+    .title = { pane-about-firefox-title }(^^k
+pane-accessibility-title = Accessibility(^^k
+    .title = { pane-accessibility-title }(^^k
+pane-languages-title = Languages(^^k
+category-languages =
+    .tooltiptext = { pane-languages-title }(^^k
+preferences-languages-header =
+    .heading = { pane-languages-title }(^^k
 pane-experimental-title = 実験的な機能
 category-experimental =
     .tooltiptext = { -brand-short-name } の実験的な機能
@@ -75,6 +84,8 @@ pane-experimental-subtitle = 注意して進んでください
 pane-experimental-search-results-header = { -brand-short-name } の実験的な機能: 注意して進んでください
 pane-experimental-description2 = 高度な設定を変更すると、{ -brand-short-name } の性能と安全性に影響を及ぼす可能性があります。
 settings-pane-labs-title = { -firefoxlabs-brand-name }
+settings-pane-labs-header =
+    .heading = { -firefoxlabs-brand-name }(^^k
 settings-category-labs =
     .tooltiptext = { -firefoxlabs-brand-name }
 pane-experimental-description4 = 実験的な機能を試してみてください！ 現在開発中ですが、{ -brand-short-name } の動作にインパクトを与えることでしょう。<a data-l10n-name="data-collection">技術データと対話データの送信</a> をオンにしている場合、私たちはこれらの機能の使用データしか受け取りません。
@@ -446,6 +457,14 @@ manage-browser-languages-button =
     .accesskey = l
 confirm-browser-language-change-description = 変更を適用するには、{ -brand-short-name } の再起動が必要です
 confirm-browser-language-change-button = 適用して再起動
+browser-language-heading =
+    .label = Browser language(^^k
+    .description = Choose the language used to display menus, messages, and notifications from { -brand-short-name }.(^^k
+browser-language-preferred-label =
+    .label = Preferred language(^^k
+browser-language-fallback-label =
+    .label = Fallback language(^^k
+    .description = Used when preferred language localization is incomplete.(^^k
 browser-language-install-error =
     .message = { -brand-short-name } は現在、言語を更新できません。インターネット接続を確認して、もう一回試してください。
 translate-web-pages =
@@ -665,6 +684,8 @@ update-application-version = バージョン { $version } <a data-l10n-name="lea
 update-history-2 =
     .label = 更新履歴を表示
     .accesskey = p
+update-application-installation =
+    .label = Installation(^^k
 update-history =
     .label = 更新履歴を表示...
     .accesskey = p
@@ -672,6 +693,9 @@ update-application-allow-description = { -brand-short-name } の更新動作
 update-application-auto =
     .label = 更新を自動的にインストールする (推奨)
     .accesskey = A
+update-application-check-choose-2 =
+    .label = Check for updates, but choose when to install(^^k
+    .accesskey = C
 update-application-check-choose =
     .label = 更新の確認は行うが、インストールするかを選択する
     .accesskey = C
@@ -683,6 +707,9 @@ update-application-background-enabled =
     .accesskey = W
 update-application-warning-cross-user-setting-2 =
     .message = この設定はこの端末のすべての Windows アカウントと、この { -brand-short-name } のインストール先を使用するすべての { -brand-short-name } プロファイルに適用されます。
+update-application-suppress-prompts-2 =
+    .label = Show fewer update reminders(^^k
+    .accesskey = n
 update-application-warning-cross-user-setting = この設定はこの端末のすべての Windows アカウントと、この { -brand-short-name } のインストール先を使用するすべての { -brand-short-name } プロファイルに適用されます。
 update-application-use-service =
     .label = 更新のインストールにバックグラウンドサービスを使用する
@@ -706,8 +733,20 @@ update-in-progress-ok-button = 破棄(&D)
 # method of closing the UI will not discard the update.
 update-in-progress-cancel-button = 続行(&C)
 
+## About Firefox
+
+about-firefox-header =
+    .heading = About { -brand-short-name }(^^k
+
 ## Firefox updates
 
+update-application-heading =
+    .label = { -brand-short-name } updates(^^k
+    .description = Updates improve { -brand-short-name }’s speed, stability, and security.(^^k
+update-application-suppress-prompts-heading =
+    .label = Notifications(^^k
+update-application-updates-managed-by-os =
+    .message = Updates are managed by your operating system(^^k
 
 ## Firefox support
 
@@ -749,6 +788,10 @@ browsing-group-label =
 browsing-use-autoscroll =
     .label = 自動スクロール機能を使用する
     .accesskey = a
+keyboard-and-scrolling-group =
+    .label = Keyboard navigation and scrolling(^^k
+motion-and-link-group =
+    .label = Motion and link styling(^^k
 browsing-use-smooth-scrolling =
     .label = スムーズスクロール機能を使用する
     .accesskey = m
@@ -793,6 +836,19 @@ browsing-group =
 
 ## Accessibility page
 
+preferences-accessibility-header =
+    .heading = Accessibility(^^k
+preferences-default-zoom-select =
+    .aria-label = Default zoom(^^k
+preferences-fonts-family =
+    .label = Font family(^^k
+    .accesskey = D
+preferences-fonts-size =
+    .label = Font size(^^k
+    .accesskey = s
+preferences-fonts-advanced-settings =
+    .label = Advanced settings(^^k
+    .accesskey = A
 
 ## General Section - Proxy
 
@@ -971,6 +1027,9 @@ home-prefs-lists-header =
 # Timer is a widget on New Tab, similar to the Pomodoro timer.
 home-prefs-timer-header =
     .label = タイマー
+# Sports is a widget on New Tab showing sports scores and schedules.
+home-prefs-sports-widget-header =
+    .label = Sports(^^k
 # "Support" here means to help sustain or contribute to something, especially through funding or sponsorship.
 home-prefs-support-firefox-header =
     .label = { -brand-product-name } を支援
@@ -984,6 +1043,11 @@ home-prefs-manage-topics-link2 =
 home-prefs-choose-wallpaper-link = 壁紙を選択
 home-prefs-choose-wallpaper-link2 =
     .label = 壁紙を選択
+# Informational message bar that appears in the Firefox Home section when the options are disabled.
+# The user must select Firefox Home as their homepage for either new tabs or new windows to enable
+# the features in settings.
+home-prefs-firefox-home-disabled-notice =
+    .message = To use these features, set new tabs or new windows to { -firefox-home-brand-name }.(^^k
 # Variables:
 #   $num (number) - Number of rows displayed
 home-prefs-sections-rows-option =
@@ -1093,6 +1157,7 @@ search-edit-engine =
     .label = 編集
     .accesskey = E
 search-find-more-link = 他の検索エンジンを追加
+search-filtering-for-add-engine = Add Engine(^^k
 # This warning is displayed when the chosen keyword is already in use
 # ('Duplicate' is an adjective)
 search-keyword-warning-title = キーワードが重複しています
@@ -1111,6 +1176,9 @@ search-engine-group =
     .label = @@Default-@@検索エンジン
 search-default-engine =
     .aria-label = @@Default-@@検索エンジン
+# Header for the search section ("search" is a noun).
+search-section =
+    .heading = Search(^^k
 
 ## Containers Section
 
@@ -1508,6 +1576,14 @@ windows-passkey-settings-label = システム設定で Passkey を管理しま�
 
 ## Privacy Panel Settings
 
+privacy-panel-settings-header =
+    .label = Privacy panel settings(^^k
+    .description = Get help protecting your info online in { -brand-short-name }.(^^k
+# By “breach message” we mean the UI messaging shown when Firefox detects that a
+# site the user has interacted with has been involved in a known data breach
+privacy-panel-breach-alerts =
+    .label = Show breach messages(^^k
+    .accesskey = s
 
 ## OS Authentication dialog
 
@@ -2125,6 +2201,12 @@ collection-backlogged-crash-reports2 =
     .label = クラッシュレポートを自動的に送信する
     .accesskey = c
 collection-backlogged-crash-reports-description = これは { -vendor-short-name } がブラウザーの問題を診断し修正するのに役立てられます。レポートには個人情報や機密性の高い情報が含まれる場合があります。
+# Promotional message displayed in the Settings panes to inform users of the new redesign
+settings-redesign-promo =
+    .heading = Same settings, new look!(^^k
+    .message = We reorganized this page so it’s easier to scan and explore. Your personal settings haven’t changed, and everything’s still here. Tip: use search to jump straight to what you need.(^^k
+settings-redesign-promo-dismiss-button =
+    .label = Got it(^^k
 addon-recommendations =
     .label = { -brand-short-name } にパーソナライズされた拡張機能のおすすめを許可する
 addon-recommendations-link = 詳細情報
@@ -2383,6 +2465,13 @@ preferences-doh-header2 =
 
 ## Connection and software security section
 
+preferences-connection-header =
+    .heading = Connection and software security(^^k
+preferences-connection-link-section =
+    .label = Connection and software security(^^k
+    .description = See how connections stay secure, harmful software is blocked, and websites are verified.(^^k
+preferences-connection-link-button =
+    .label = Advanced settings(^^k
 
 ## The following strings are used in the Download section of settings
 

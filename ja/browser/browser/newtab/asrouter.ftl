@@ -406,6 +406,14 @@ windows-10-eos-feature-toast-subtitle = ご要望にお応えして { -brand-pro
 windows-10-eos-feature-toast-whats-new-button = 新機能を見る
 windows-10-eos-feature-toast-dismiss-button = 閉じる
 
+## Windows 10 EoS Global Infobar
+
+windows-10-eos-global-infobar-title = <strong>Microsoft is no longer supporting Windows 10.</strong> Back up your info to get { -brand-product-name } ready for Windows 11.(^^k
+windows-10-eos-global-infobar-primary-button = Turn on backup(^^k
+    .accesskey = T
+windows-10-eos-global-infobar-learn-more-link = Learn more(^^k
+    .accessKey = L
+
 ## ETP (Enhanced Tracking Protection) Strict exceptions infobar
 ##
 ## These strings are displayed in an infobar notification that appears when
@@ -434,3 +442,13 @@ set-default-menu-message-row-layout-subtitle-variant =
     }
 set-default-menu-message-primary-button = @@Default@@に設定
 set-default-menu-message-primary-button-variant = 優先ブラウザーに設定
+
+## Firefox Relay 50 Masks Announcement
+
+# "on us" in this context means "for free" or "at no cost"
+relay-50-masks-announcement-title = 50 email masks, on us(^^k
+relay-50-masks-announcement-subtitle = Now you get 50 free masks (up from 5). Use one for every account to keep your real email private.(^^k
+relay-50-masks-announcement-primary-button = Go to { -relay-brand-name }(^^k
+    .accesskey = G
+relay-50-masks-announcement-secondary-button = Dismiss(^^k
+    .accesskey = D

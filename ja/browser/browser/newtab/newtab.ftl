@@ -8,8 +8,10 @@
 newtab-page-title = @@NewTab@@
 newtab-settings-button =
     .title = @@NewTab@@ページをカスタマイズ
+#  (developer note): @nova-cleanup(remove-string): Remove newtab-customize-panel-icon-button once Nova lands, will be using newtab-customize-panel-label instead
 newtab-customize-panel-icon-button =
     .title = このページをカスタマイズ
+#  (developer note): @nova-cleanup(remove-string): Remove newtab-customize-panel-icon-button-label once Nova lands, will be using newtab-customize-panel-label instead
 newtab-customize-panel-icon-button-label = カスタマイズ
 newtab-customize-panel-label =
     .label = カスタマイズ
@@ -355,6 +357,8 @@ newtab-custom-widget-lists-toggle =
     .label = ToDo リスト
 newtab-custom-widget-timer-toggle =
     .label = タイマー
+newtab-custom-widget-sports-toggle =
+    .label = World Cup(^^k
 newtab-custom-widget-section-title = ウィジェット
 newtab-custom-widget-section-toggle =
     .label = ウィジェット
@@ -372,7 +376,9 @@ newtab-custom-settings = 他の設定を管理
 
 newtab-wallpaper-title = 壁紙
 newtab-wallpaper-reset = @@DefaultValue@@にリセット
+#  (developer note): @nova-cleanup(remove-string): Remove old "Upload an image" string once Nova lands. The new "Add an image"  string will take over
 newtab-wallpaper-upload-image = 画像をアップロード
+newtab-wallpaper-add-an-image = Add an image(^^k
 newtab-wallpaper-custom-color = @@Color@@を選択
 newtab-wallpaper-toggle-title =
     .label = 壁紙
@@ -398,7 +404,9 @@ newtab-wallpaper-light-fox-anniversary = 霧がかかった山を背景に草原
 
 ## Solid Colors
 
+#  (developer note): @nova-cleanup(remove-string): Remove old "Solid colors" string once Nova lands. The simplified "Colors" string will take over
 newtab-wallpaper-category-title-colors = 無地
+newtab-wallpaper-colors = Colors(^^k
 newtab-wallpaper-blue = 空色
 newtab-wallpaper-light-blue = 白藍色
 newtab-wallpaper-light-purple = 紅藤
@@ -489,6 +497,9 @@ newtab-weather-menu-change-location = 予報地点を変更
 newtab-weather-change-location-search-input-placeholder =
     .placeholder = 場所を検索します
     .aria-label = 場所を検索
+# "Current" refers to the user's physical/geographic location detected via geolocation.
+newtab-weather-change-location-search-use-current =
+    .label = Use current location(^^k
 newtab-weather-menu-weather-display = 天気表示
 newtab-weather-todays-forecast = 今日の天気予報
 newtab-weather-see-full-forecast = 天気予報の詳細を表示
@@ -514,6 +525,10 @@ newtab-weather-opt-in-not-now =
     .label = 後で
 newtab-weather-opt-in-yes =
     .label = はい
+newtab-weather-opt-in-headline = Get your local weather forecast(^^k
+newtab-weather-opt-in-use-location =
+    .label = Use location(^^k
+newtab-weather-opt-in-choose-location = Choose location(^^k
 # We'll be showing static (fake) weather data if the user has not opted in to using their location
 newtab-weather-static-city = ニューヨーク
 # "Highest" here refers to the highest temperature of the day
@@ -573,8 +588,16 @@ newtab-topic-selection-button-pick-interests = 関心事を選ぶ
 ## e.g. Following the travel section of stories.
 
 newtab-section-follow-button = フォローする
+# Variables:
+#   $topic (string) - Topic that the user can follow
+newtab-section-follow-button-label =
+    .aria-label = Follow { $topic }(^^k
 newtab-section-following-button = フォロー中
 newtab-section-unfollow-button = フォロー解除
+# Variables:
+#   $topic (string) - Topic that the user is following and can unfollow
+newtab-section-unfollow-button-label =
+    .aria-label = Following: Unfollow { $topic }(^^k
 # A modal may appear next to the Follow button, directing users to try out the feature
 newtab-section-follow-highlight-title = フィードを微調整
 newtab-section-follow-highlight-subtitle = 興味のあることをフォローして、お好みのコンテンツを多く表示します
@@ -586,6 +609,22 @@ newtab-section-follow-highlight-subtitle = 興味のあることをフォロー�
 newtab-section-block-button = ブロックする
 newtab-section-blocked-button = ブロック中
 newtab-section-unblock-button = ブロック解除
+# Variables:
+#   $topic (string) - Name of topic that user is following
+newtab-section-follow-topic =
+    .aria-label = Follow { $topic }(^^k
+# Variables:
+#   $topic (string) - Name of topic that user is unfollowing
+newtab-section-unfollow-topic =
+    .aria-label = Unfollow { $topic }(^^k
+# Variables:
+#   $topic (string) - Name of topic that user is blocking
+newtab-section-block-topic =
+    .aria-label = Block { $topic }(^^k
+# Variables:
+#   $topic (string) - Name of topic that user is unblocking
+newtab-section-unblock-topic =
+    .aria-label = Unblock { $topic }(^^k
 
 ## Confirmation modal for blocking a section
 
@@ -619,6 +658,9 @@ newtab-new-user-custom-wallpaper-cta = 今すぐ試す
 
 ## Strings for Nova wallpaper feature highlight
 
+newtab-wallpaper-feature-highlight-title = Fresh new wallpapers just landed(^^k
+newtab-wallpaper-feature-highlight-subtitle = Choose your favorite and make every new tab feel like home.(^^k
+newtab-wallpaper-feature-highlight-cta = Choose wallpaper(^^k
 
 ## Strings for download mobile highlight
 
@@ -688,6 +730,8 @@ newtab-widget-lists-label-beta =
 # Variables:
 #   $number (number) - Amount of list items marked complete
 newtab-widget-lists-completed-list = 完了 ({ $number })
+newtab-widget-lists-celebration-headline = Good work(^^k
+newtab-widget-lists-celebration-subhead = All clear(^^k
 newtab-widget-task-list-menu-copy = コピー
 newtab-widget-lists-menu-edit = リスト名を編集
 newtab-widget-lists-menu-edit2 =
@@ -708,17 +752,26 @@ newtab-widget-lists-input-menu-move-up = 上へ移動
 newtab-widget-lists-input-menu-move-down = 下へ移動
 newtab-widget-lists-input-menu-delete = 削除
 newtab-widget-lists-input-menu-edit = 編集
+newtab-widget-lists-input-menu-edit2 =
+    .aria-label = Edit item(^^k
 # the + symbol emphasises the functionality of adding a new list
 newtab-widget-lists-dropdown-create =
     .label = + @@New-CMD@@リストを作成
 newtab-widget-lists-name-label-default =
     .label = ToDo リスト
+newtab-widget-lists-name-label-checklist =
+    .label = Checklist(^^k
 newtab-widget-lists-name-placeholder-default =
     .placeholder = ToDo リスト
+newtab-widget-lists-name-placeholder-checklist2 =
+    .placeholder = Checklist(^^k
+    .aria-label = Edit list name(^^k
 # The placeholder value of the name field for a newly created list
 newtab-widget-lists-name-placeholder-new2 =
     .placeholder = @@New-CMD@@リスト
     .aria-label = リスト名を編集
+newtab-widget-lists-name-placeholder-checklist =
+    .placeholder = Checklist(^^k
 # The placeholder value of the name field for a newly created list
 newtab-widget-lists-name-placeholder-new =
     .placeholder = @@New-CMD@@リスト
@@ -738,9 +791,15 @@ newtab-widget-section-maximize =
 newtab-widget-section-minimize =
     .title = ウィジェットを最小化します
     .aria-label = すべてのウィジェットをコンパクトサイズに折りたたむ
+newtab-widget-section-menu-button =
+    .title = Widgets menu(^^k
+    .aria-label = Open widgets menu(^^k
+newtab-widget-section-menu-hide-all = Hide widgets(^^k
+newtab-widget-section-menu-learn-more = Learn more(^^k
 newtab-widget-section-feedback = ご感想をお寄せください
+newtab-widget-lists-name-default = Checklist(^^k
 
-## Sports widget
+## Strings introduced by the Nova redesign of the Timer widget
 
 newtab-widget-timer-notification-title = タイマー
 newtab-widget-timer-notification-focus = 時間内に良い仕事をしましょう。休憩はいかが？
@@ -781,8 +840,106 @@ newtab-promo-card-dismiss-button =
     .title = 閉じる
     .aria-label = 閉じる
 
+## Strings introduced by the Nova redesign of the Timer widget
+
+# Variables:
+#   $minutes (number) - The currently selected timer duration in minutes
+newtab-widget-timer-start-aria =
+    .aria-label =
+        { $minutes ->
+           *[other] Start { $minutes }-minute timer(^^k
+        }
+newtab-widget-timer-pause-aria =
+    .aria-label = Pause timer
+# Variables:
+#   $minutes (number) - The currently selected timer duration in minutes
+newtab-widget-timer-spinbutton-name =
+    .aria-label =
+        { $minutes ->
+            [one] { $minutes } minute(^^k
+           *[other] { $minutes } minutes(^^k
+        }
+newtab-widget-timer-decrease-min =
+    .title = Decrease 1 minute(^^k
+newtab-widget-timer-increase-min =
+    .title = Increase 1 minute(^^k
+newtab-widget-timer-mode-group =
+    .aria-label = Timer mode(^^k
+# Small label shown beneath the live time while the focus timer is running or paused.
+newtab-widget-timer-running-focus = Focus(^^k
+# Small label shown beneath the live time while the break timer is running or paused.
+newtab-widget-timer-running-break = Break(^^k
+# Context-menu item to hide the Timer widget. Replaces the shared "Hide widget"
+# copy with a widget-specific string per the Nova design.
+newtab-widget-timer-menu-hide = Hide timer(^^k
+# Heading shown inside the Timer widget after a focus session ends.
+newtab-widget-timer-celebration-heading-focus = Nice work(^^k
+# Heading shown inside the Timer widget after a break session ends.
+newtab-widget-timer-celebration-heading-break = Your break is over(^^k
+# Message shown inside the Timer widget after a focus session ends.
+newtab-widget-timer-celebration-message-focus = Need a break?(^^k
+# Message shown inside the Timer widget after a break session ends.
+newtab-widget-timer-celebration-message-break = Ready to focus?(^^k
+
 ## Sports widget
 
+newtab-sports-widget-menu-follow-teams = Follow teams(^^k
+newtab-sports-widget-menu-view-upcoming = View upcoming(^^k
+newtab-sports-widget-menu-view-results = View results(^^k
+newtab-sports-widget-menu-learn-more = Learn more(^^k
+newtab-sports-widget-countdown-title = Countdown to the World Cup(^^k
+# Abbreviated label for days in the sport widget countdown. D is short for Days.
+# The layout only allows for 1–2 characters: if there is an equivalent single
+# character for your language, use that. Your translation will be automatically
+# truncated at 1 character to avoid layout issues.
+newtab-sports-widget-countdown-days = D(^^k
+# Abbreviated label for hours in the sport widget countdown. H is short for Hours.
+# The layout only allows for 1–2 characters: if there is an equivalent single
+# character for your language, use that. Your translation will be automatically
+# truncated at 1 character to avoid layout issues.
+newtab-sports-widget-countdown-hours = H(^^k
+# Abbreviated label for minutes in the sport widget countdown. M is short for Minutes.
+# The layout only allows for 1–2 characters: if there is an equivalent single
+# character for your language, use that. Your translation will be automatically
+# truncated at 1 character to avoid layout issues.
+newtab-sports-widget-countdown-minutes = M(^^k
+newtab-sports-widget-get-updates = Get live match updates and more.(^^k
+newtab-sports-widget-view-schedule =
+    .label = View schedule(^^k
+newtab-sports-widget-follow-teams =
+    .label = Follow teams(^^k
+newtab-sports-widget-choose-wallpaper =
+    .label = Choose a wallpaper(^^k
+newtab-sports-widget-skip = Skip(^^k
+newtab-sports-widget-search-teams =
+    .placeholder = Search teams(^^k
+    .aria-label = Search teams(^^k
+newtab-sports-widget-done-button =
+    .label = Done(^^k
+newtab-sports-widget-group-stage = Group Stage(^^k
+# The "LIVE" string is meant to be uppercase in English, but other languages and locales may vary in how they handle this.
+newtab-sports-widget-live = LIVE(^^k
+newtab-custom-widget-live-refresh =
+    .title = Refresh scores(^^k
+    .aria-label = Refresh scores(^^k
+newtab-sports-widget-upcoming = Upcoming(^^k
+newtab-sports-widget-results = Results(^^k
+newtab-sports-widget-semi-finals = Semi-finals(^^k
+newtab-sports-widget-bronze-finals = Bronze Final(^^k
+# Final is the final match for 1st place.
+newtab-sports-widget-final = Final(^^k
+newtab-sports-widget-delayed = Delayed(^^k
+newtab-sports-widget-postponed = Postponed(^^k
+newtab-sports-widget-suspended = Suspended(^^k
+newtab-sports-widget-cancelled = Cancelled(^^k
+newtab-sports-widget-information = Information about the match(^^k
+newtab-sports-widget-no-live-data = Live match data isn’t updating right now(^^k
+newtab-sports-widget-view-results-link = View results(^^k
+newtab-sports-widget-third-place = Third place(^^k
+# Runner-up is the team in 2nd place.
+newtab-sports-widget-runner-up = Runner-up(^^k
+newtab-sports-widget-champions = Champions(^^k
+newtab-sports-widget-world-cup-champions = 2026 World Cup Champions(^^k
 
 ## Strings for activation window message variants. In certain experiment configurations,
 ## the strings from these variants may be displayed in a message below the search input
