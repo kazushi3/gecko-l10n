@@ -141,7 +141,7 @@ urlbar-web-notification-anchor =
 urlbar-midi-notification-anchor =
     .tooltiptext = MIDI パネルを開きます
 urlbar-serial-notification-anchor =
-    .tooltiptext = Open Serial panel(^^k
+    .tooltiptext = シリアルパネルを開きます
 urlbar-eme-notification-anchor =
     .tooltiptext = DRM ソフトウェアを管理します
 urlbar-web-authn-anchor =
@@ -285,7 +285,7 @@ urlbar-canvas-blocked =
 urlbar-midi-blocked =
     .tooltiptext = このウェブサイトの MIDI へのアクセスをブロックしました。
 urlbar-serial-blocked =
-    .tooltiptext = You have blocked serial port access for this website.(^^k
+    .tooltiptext = このウェブサイトのシリアルポートへのアクセスをブロックしました。
 urlbar-install-blocked =
     .tooltiptext = このウェブサイトのアドオンのインストールをブロックしました。
 # Variables
@@ -422,11 +422,11 @@ quickactions-cmd-library = library
 quickactions-logins2 = パスワードを管理
 quickactions-cmd-logins = logins, passwords
 # Mutes all tabs playing audio
-quickactions-mute = Mute tabs playing audio(^^k
+quickactions-mute = 音声を再生しているタブをミュート
 # List of words that would trigger the "mute tabs" action from the address bar.
 # Replace with idiomatic expressions in your language to silence something or
 # someone.
-quickactions-cmd-mute = mute, shush, sssssh(^^k
+quickactions-cmd-mute = mute, shush, sssssh
 # Opens about:addons page in the plugins section
 quickactions-plugins = プラグインを管理
 quickactions-cmd-plugins = plugins
@@ -551,11 +551,11 @@ identity-clear-site-data =
 identity-connection-not-secure-security-view = このサイトとの接続は安全ではありません。
 identity-connection-verified = このサイトとの接続は安全です。
 identity-ev-owner-label = 証明書の発行先:
-identity-verifier-label = Verified by:(^^k
+identity-verifier-label = 認証局:
 # "qualified" here refers to the qualified website authentication certificate presented by the site.
 identity-etsi = Regulation (EU) 2024/1183 に規定された要件を満たしています。
 identity-description-custom-root2 = Mozilla はこの証明書の発行者を承認していません。OS またはシステム管理者により追加された可能性があります。
-identity-cert-exception-overridden = You have added a security exception for this site.(^^k
+identity-cert-exception-overridden = このサイトはセキュリティ例外として追加されました。
 identity-remove-cert-exception =
     .label = 例外から削除
     .accesskey = R
@@ -660,8 +660,8 @@ sharing-warning-disable-for-session =
 
 ## WebSerial "select a port" popup
 
-webserial-select-port-label = Select a serial port:(^^k
-webserial-no-ports-available = No serial ports available(^^k
+webserial-select-port-label = (^^kシリアルポートを選択:
+webserial-no-ports-available = (^^k利用可能なシリアルポートはありません
 
 ## DevTools F12 popup
 
@@ -1008,7 +1008,7 @@ urlbar-searchmode-popup-one-off-header = 今回だけ使う検索エンジン:
 # reset after submitting.
 urlbar-searchmode-popup-header = 検索エンジン:
 urlbar-searchmode-popup-search-settings-panelitem = 検索設定
-urlbar-searchmode-popup-settings-panelitem = Settings(^^k
+urlbar-searchmode-popup-settings-panelitem = 設定
 
 ## Action text shown in urlbar results, usually appended after the search
 ## string or the url, like "result value - action text".
@@ -1028,7 +1028,7 @@ urlbar-result-action-open-saved-tabgroup = { $group } を開く
 ## Used in the context menu in urlbar view.
 
 urlbar-view-context-menu-open-in-tab =
-    .label = Open in New Tab(^^k
+    .label = @@NewTab@@で開く
     .accesskey = w
 urlbar-view-context-menu-open-in-container-tab =
     .label = Open in New Container Tab(^^k

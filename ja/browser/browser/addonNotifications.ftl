@@ -36,8 +36,8 @@ xpinstall-prompt-install =
 
 site-permission-install-first-prompt-midi-header = このサイトは MIDI (Musical Instrument Digital Interface) デバイスへのアクセスを要求しています。デバイスへのアクセスはアドオンをインストールすることにより有効化されます。
 site-permission-install-first-prompt-midi-message = このアクセスは安全性が保証されません。このサイトが信頼できる場合のみ続行してください。
-site-permission-install-first-prompt-serial-header = This site is requesting access to your serial devices. Device access can be enabled by installing an add-on.(^^k
-site-permission-install-first-prompt-serial-message = This access is not guaranteed to be safe. Only continue if you trust this site.(^^k
+site-permission-install-first-prompt-serial-header = このサイトはシリアルデバイスへのアクセスを要求しています。デバイスへのアクセスはアドオンをインストールすることにより有効化されます。
+site-permission-install-first-prompt-serial-message = このアクセスは安全性が保証されません。このサイトが信頼できる場合のみ続行してください。
 
 ##
 
