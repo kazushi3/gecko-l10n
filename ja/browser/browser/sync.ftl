@@ -36,10 +36,13 @@ fxa-menu-send-to-mobile =
             [1] モバイル端末へ送信
            *[other] { $tabCount } 個のタブをモバイル端末へ送信
         }
-# The following strings are for displaying elements in the FxA send tab submenu to prompt users to sign in, enable sync, or pair a device
 fxa-menu-send-to-mobile-enable-sync2 = 同期を有効にしてタブを送信
 fxa-menu-send-to-mobile-connect-phone2 = スマートフォンに接続
 fxa-menu-send-to-mobile-device-missing2 = 端末が見つかりませんか？
+fxviewtabrow-send-to-mobile-not-verified = Account not verified(^^k
+fxviewtabrow-send-to-mobile-verify-account = Verify your account(^^k
+fxa-menu-send-to-mobile-turn-on-sync = Turn on sync to send tabs(^^k
+fxa-menu-send-to-mobile-connect-device = Connect a device to send tabs(^^k
 # Variables:
 #   $tabCount (Number): The number of tabs sent to the device.
 fxa-menu-send-tab-to-device =
@@ -64,6 +67,10 @@ sync-setup-verify-heading = 本当に Sync にログインしますか？
 # Variables:
 #   $email - Email address of a user previously signed into sync.
 sync-setup-verify-description = 以前にこのコンピューターで別のユーザーが Sync にログインしていました。ログインすると、このブラウザーのブックマークとパスワード、設定などが { $email } に統合されます。
+
+## The following strings are for displaying elements in the FxA send tab submenu to prompt users to sign in, enable sync, pair a device, troubleshoot device issues, or verify account.
+
+fxa-menu-send-to-mobile-sign-in = Sign in to send tabs(^^k
 
 ## Sync warning strings that support the browser profiles feature, these will be shown when the user might be merging data
 

@@ -8,6 +8,8 @@ report-broken-site-panel-header =
     .title = 動作しないサイトを報告
 report-broken-site-panel-intro-text = ご報告は、{ -brand-product-name } の問題を理解して解決し、すべての人にとって製品をより良くするために役立ちます。
 report-broken-site-panel-learn-more-link = 詳細情報
+report-broken-site-panel-url-label = URL of broken site(^^k
+report-broken-site-panel-reason-intro-text = What’s not working?(^^k
 report-broken-site-panel-reason-load-moz-box-button =
     .label = サイトが読み込まれない
 # These terms are referring to ecommerce websites
@@ -25,8 +27,14 @@ report-broken-site-panel-reason-adblocker-moz-box-button =
     .label = 広告ブロッカーの無効化を求められる
 report-broken-site-panel-reason-notsupported-moz-box-button =
     .label = ブラウザーがサポートされていない、またはブロックされている
+report-broken-site-panel-reason-deceptive-moz-box-button =
+    .label = Site is deceptive(^^k
 report-broken-site-panel-reason-other-moz-box-button =
     .label = その他
+report-broken-site-panel-instructions-other = Describe the problem in detail to help us investigate the issue.(^^k
+report-broken-site-panel-instructions-other-optional = Describe the problem in detail to help us investigate the issue. (optional)(^^k
+report-broken-site-panel-description2 =
+    .placeholder = What happened? What did you expect to happen? Please provide steps to reproduce the issue.(^^k
 report-broken-site-panel-send-more-info-button =
     .label = 詳しい情報を送信
 report-broken-site-panel-intro = { -brand-product-name } の改善にご協力ください。{ -vendor-short-name } はあなたが送信した情報をウェブサイトの問題を解決するために使用します。
@@ -63,6 +71,8 @@ report-broken-site-panel-button-cancel =
     .label = キャンセル
 report-broken-site-panel-button-okay =
     .label = OK
+report-broken-site-panel-button-send-report =
+    .label = Send report(^^k
 report-broken-site-panel-button-send =
     .label = 送信
 report-broken-site-panel-report-sent-label = レポートが送信されました
@@ -71,6 +81,17 @@ report-broken-site-panel-report-sent-header =
     .title = レポートが送信されました
 report-broken-site-panel-report-sent-text = ウェブをすべての人々のためにオープンでアクセシブルにし、良いものにする { -brand-product-name } へのご協力に感謝します。
 report-broken-site-panel-invalid-url-label = 正しい URL を入力してください
+# $minLength (number) - The minimum number of characters required in the description textarea.
+report-broken-site-panel-invalid-description-label =
+    { $minLength ->
+       *[other] Please enter at least { $minLength } characters(^^k
+    }
+report-broken-site-panel-screenshot-label =
+    .label = Send a screenshot(^^k
+report-broken-site-panel-blocked-trackers-label2 =
+    .label = Send list of items blocked by tracking protection(^^k
+report-broken-site-panel-url-input-label =
+    .aria-label = URL of page being reported(^^k
 report-broken-site-panel-missing-reason-label = 不具合の対象を選んでください
 report-broken-site-panel-blocked-trackers-label =
     .label = トラッキング防止機能がブロックした URL を送信する

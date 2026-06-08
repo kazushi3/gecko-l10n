@@ -51,6 +51,8 @@ pane-general-title = 一般
 category-general =
     .tooltiptext = { pane-general-title }
 pane-home-title = ホーム
+pane-home-startup-title2 = Home and startup
+    .title = Home and startup(^^k
 pane-search-title2 = 検索
     .title = 検索
 pane-privacy-title3 = プライバシーとセキュリティ
@@ -76,6 +78,10 @@ category-ai-controls =
     .tooltiptext = { pane-ai-controls-title }
 pane-about-firefox-title = { -brand-short-name } について
     .title = { pane-about-firefox-title }
+pane-appearance-title = Appearance
+    .title = { pane-appearance-title }(^^k
+pane-downloads-title2 = Downloads
+    .title = Downloads(^^k
 pane-downloads2 =
     .heading = { pane-downloads-title2 }
 pane-accessibility-title = アクセシビリティ
@@ -230,6 +236,10 @@ preferences-profile-to-copy =
 # to make a copy of that profile.
 preferences-copy-profile-select = プロファイルを選択
 preferences-copy-profile-button = コピー
+tabs-browsing-section =
+    .heading = Tabs and browsing(^^k
+pane-tabs-browsing-title2 = Tabs and browsing
+    .title = Tabs and browsing(^^k
 tabs-group-header2 =
     .label = タブグループ
 tabs-opening-heading =
@@ -274,16 +284,25 @@ confirm-on-quit-with-key =
 warn-on-open-many-tabs =
     .label = 同時に複数のタブを開いて { -brand-short-name } の動作が遅くなるときは確認する
     .accesskey = d
+switch-to-new-tabs-2 =
+    .label = When opening links or media in a new tab, switch to it immediately(^^k
+    .accesskey = h
 switch-to-new-tabs =
     .label = リンク、画像、メディアを@@NewTab@@で開いたとき、すぐにそのタブに切り替える
     .accesskey = h
 show-tabs-in-taskbar =
     .label = タスクバーにタブのプレビューを表示する
     .accesskey = k
+browser-containers-enabled-2 =
+    .label = Use Container Tabs(^^k
+    .accesskey = n
 browser-containers-enabled =
     .label = コンテナータブを有効にする
     .accesskey = n
 browser-containers-learn-more = 詳細情報
+browser-containers-settings-2 =
+    .label = Manage settings(^^k
+    .accesskey = i
 browser-containers-settings =
     .label = 設定...
     .accesskey = i
@@ -324,6 +343,8 @@ browser-layout-vertical-tabs2 =
 browser-layout-show-sidebar2 =
     .label = サイドバーを表示
     .description = ブックマーク、同期したタブ、AI チャットボットなど、メインビューを切り替えずにすばやくアクセスできます。
+page-navigation-group =
+    .label = Page navigation(^^k
 browser-layout-header = ブラウザーレイアウト
 browser-layout-horizontal-tabs =
     .label = 水平タブ
@@ -338,6 +359,12 @@ browser-layout-show-sidebar-desc = ブックマーク、同期したタブ、AI 
 ## General Section - Language & Appearance
 
 language-and-appearance-header = 言語と外観
+appearance-group2 =
+    .label = Website appearance
+    .description = Some websites change their colors to match your preferences. Choose your color scheme.(^^k
+preferences-web-appearance-choice-auto3 =
+    .label = System
+    .title = Automatically change website backgrounds and content based on your system settings and { -brand-short-name } theme.(^^k
 appearance-group =
     .label = ウェブサイトの外観
     .description = 一部のウェブサイトはあなたの設定をもとにカラースキームを適用します。これらのサイトでどのカラースキームを使用するか選択してください。
@@ -435,6 +462,8 @@ preferences-default-zoom-value =
 preferences-zoom-text-only =
     .label = 文字サイズのみ変更する
     .accesskey = t
+preferences-text-zoom-override-warning2 =
+    .message = If “Zoom text only” is on and your default zoom isn’t 100%, some sites might not display content correctly.(^^k
 preferences-text-zoom-override-warning =
     .message = 警告: [文字サイズのみ変更] を選択し、@@Default-@@ズームが 100% でない場合、一部のサイトやコンテンツが正しく表示されない可能性があります。
 language-header = 言語
@@ -574,6 +603,12 @@ download-save-files-header =
     .label = 次のフォルダーに保存する
 download-save-where-3 =
     .aria-label = 次のフォルダーに保存する
+download-always-ask-where2 =
+    .label = Ask where to save files before downloading(^^k
+    .accesskey = A
+download-private-browsing-delete2 =
+    .label = Delete private window downloads on close(^^k
+    .accesskey = D
 downloads-header-2 =
     .label = ダウンロード
 download-save-where-2 =
@@ -604,6 +639,9 @@ applications-setting =
     .description = ウェブからダウンロードしたファイルを { -brand-short-name } が取り扱う方法と閲覧中に使用する@@Application@@を選んでください。
 applications-header = @@Application@@
 applications-description = ウェブからダウンロードしたファイルを { -brand-short-name } が取り扱う方法と閲覧中に使用する@@Application@@を選んでください。
+applications-setting2 =
+    .label = Files and applications
+    .description = Choose how { -brand-short-name } handles downloaded files and content.(^^k
 applications-filter =
     .placeholder = ファイルの種類と@@Application@@を検索します
 applications-type-column =
@@ -683,8 +721,14 @@ applications-handle-new-file-types-description = 他のファイルは { -brand-
 applications-save-for-new-types =
     .label = ファイルを保存する
     .accesskey = S
+applications-save-for-new-types2 =
+    .label = Automatically save files(^^k
+    .accesskey = S
 applications-ask-before-handling =
     .label = ファイルを開くか保存するかを確認する
+    .accesskey = A
+applications-ask-before-handling2 =
+    .label = Ask to open or save files(^^k
     .accesskey = A
 drm-group =
     .label = デジタル著作権管理 (DRM) コンテンツ
@@ -703,6 +747,9 @@ update-history-2 =
     .accesskey = p
 update-application-installation =
     .label = インストール
+update-application-auto-2 =
+    .label = Automatically install updates (recommended)
+    .accesskey = A
 update-history =
     .label = 更新履歴を表示...
     .accesskey = p
@@ -796,6 +843,10 @@ performance-default-content-process-count =
     .label = { $num } (@@Default@@)
 performance-group =
     .label = パフォーマンス
+performance-use-recommended-settings-checkbox-2 =
+    .label = Use recommended performance settings
+    .description = These settings are tailored to your hardware and operating system.(^^k
+    .accesskey = U
 
 ## Accessibility page
 
@@ -830,6 +881,11 @@ browsing-use-full-keyboard-navigation =
 browsing-search-on-start-typing =
     .label = キー入力時に検索を開始する
     .accesskey = x
+settings-media-group =
+    .label = Media(^^k
+browsing-picture-in-picture-toggle-enabled-2 =
+    .label = Use Picture-in-Picture(^^k
+    .accesskey = e
 browsing-picture-in-picture-toggle-enabled =
     .label = ピクチャーインピクチャーの動画の操作を有効にする
     .accesskey = E
@@ -840,6 +896,8 @@ browsing-picture-in-picture-learn-more = 詳細情報
 browsing-media-control =
     .label = メディアをキーボード、ヘッドセット、仮想インターフェイスで操作する
     .accesskey = v
+recommendations-group =
+    .label = Recommendations(^^k
 browsing-media-control-learn-more = 詳細情報
 browsing-cfr-recommendations =
     .label = おすすめの拡張機能を紹介する
@@ -1053,6 +1111,9 @@ home-prefs-timer-header =
 # Sports is a widget on New Tab showing sports scores and schedules.
 home-prefs-sports-widget-header =
     .label = スポーツ
+# Clock is a widget on New Tab that displays time zones around the world.
+home-prefs-clocks-header =
+    .label = Clock(^^k
 # "Support" here means to help sustain or contribute to something, especially through funding or sponsorship.
 home-prefs-support-firefox-header =
     .label = { -brand-product-name } を支援
@@ -1237,6 +1298,8 @@ account-placeholder2 =
     .description = ログインしてユーザーデータをプライベートで暗号化し、{ -brand-short-name } を使用しているどの端末からでもすぐにアクセスできるようにしましょう。
 account-sync-section =
     .heading = アカウントと同期
+pane-account-sync-title2 = Account and sync
+    .title = Account and sync(^^k
 
 ## Firefox account - Signed out. Note that "Sync" and "Firefox account" are now
 ## more discrete ("signed in" no longer means "and sync is connected").
@@ -1695,6 +1758,10 @@ addresses-no-addresses-stored-message =
 address-moz-box-item =
     .label = { $name }
     .description = { $address }
+pane-passwords-autofill-title2 = Passwords and autofill
+    .title = Passwords and autofill(^^k
+preferences-passwords-autofill-header =
+    .heading = Passwords and autofill(^^k
 # These values are displayed for each credit card record listed on the Manage Payment methods
 # settings page.
 # Variables:
@@ -2168,6 +2235,10 @@ permissions-notification2 =
 permissions-header3 =
     .label = 許可設定
     .description = ウェブサイトからのアクセス、制御、トリガーを管理します。
+permissions-data-section =
+    .heading = Permissions and data(^^k
+pane-permissions-data-title2 = Permissions and data
+    .title = Permissions and data(^^k
 
 ## Privacy Section - Data Collection
 
@@ -2498,6 +2569,22 @@ choose-download-folder-title = ダウンロードフォルダーを選択:
 
 ## Appearance page
 
+preferences-appearance-header =
+    .heading = Appearance(^^k
+browser-theme-group =
+    .label = Browser theme
+    .description = Style { -brand-short-name } your way. Theme colors apply to toolbars, menus, and messages.(^^k
+browser-theme-manage-link =
+    .label = Manage { -brand-short-name } themes(^^k
+related-settings-group =
+    .label = Related settings(^^k
+related-settings-accessibility-link =
+    .label = Customize zoom and font settings in Accessibility(^^k
+related-settings-home-link =
+    .label = Customize { -firefox-home-brand-name }(^^k
+related-settings-tabs-browsing-link =
+    .label = Customize browser layout(^^k
+
 
 ## AI controls page
 
@@ -2652,8 +2739,16 @@ preferences-etp-custom-cookie-behavior =
     .aria-label = Cookie
 preferences-etp-custom-cookie-behavior-accept-all =
     .label = すべての Cookie を許可
+preferences-etp-custom-cookie-behavior-block-cross-site-cookies =
+    .label = Block cross-site cookies(^^k
 preferences-etp-custom-cookie-behavior-isolate-cross-site-cookies =
     .label = クロスサイト Cookie の隔離
+preferences-etp-custom-cookie-behavior-block-unvisited =
+    .label = Block cookies from unvisited websites(^^k
+preferences-etp-custom-cookie-behavior-block-all-cross-site-cookies =
+    .label = Block all cross-site cookies (may cause websites to break)(^^k
+preferences-etp-custom-cookie-behavior-block-all =
+    .label = Block all cookies (will cause websites to break)(^^k
 preferences-etpc-custom-cookie-behavior-accept-all =
     .label = すべての Cookie を許可
 preferences-etp-custom-tracking-protection-enabled =

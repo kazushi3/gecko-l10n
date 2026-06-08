@@ -168,3 +168,19 @@ privacy-metrics-empty = 今週ブロックしたトラッカーはありませ�
 privacy-metrics-loading = 保護状況を読み込んでいます...
 privacy-metrics-error = 保護状況を読み込めませんでした。
 privacy-metrics-private-window = { -brand-short-name } はプライベート@@Window@@でも引き続きトラッカーをブロックしますが、ブロックしたものを記録しません。
+
+## VPN promo card and banner
+
+protections-vpn-title = Take privacy protections beyond the browser(^^k
+protections-vpn-header-content = Protect your entire device with { -mozilla-vpn-brand-name }. One tap encrypts all traffic and hides your location.(^^k
+protections-get-vpn-link = Get { -mozilla-vpn-brand-name }(^^k
+protections-vpn-title-subscribed = VPN: Subscribed(^^k
+# Variables
+#   $count (number): Number of devices
+protections-vpn-header-content-subscribed =
+    { $count ->
+       *[other] Using the { -mozilla-vpn-brand-name } encrypts all your traffic and hides your location — on up to { $count } devices. Get the most from your subscription — add it from the <a data-l10n-name="playstore-link">Google Play Store</a> or <a data-l10n-name="appstore-link">Apple App Store</a>.(^^k
+    }
+protections-vpn-banner-header = Protection that extends beyond the browser(^^k
+protections-vpn-banner-content = Try { -mozilla-vpn-brand-name } risk-free and see why TechRadar says, “its speed, simplicity and low monthly price make it worth a look.”(^^k
+protections-vpn-banner-link = Get { -mozilla-vpn-brand-name }(^^k

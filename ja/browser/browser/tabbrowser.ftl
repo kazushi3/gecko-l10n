@@ -341,6 +341,16 @@ tab-context-ungroup-tab =
 tab-group-overflow-count = +{ $tabCount }
 tab-group-overflow-count-tooltip = 他 { $tabCount } 個のタブ
 
+## The tab groups list provides a list of all open tab groups and saved tab
+## groups in one place. When the user has no tab groups, the list instead
+## recommends that the user create a tab group.
+
+tab-groups-list-empty-header = Tidy up your tabs(^^k
+tab-groups-list-empty-description = Drag one tab onto another or right-click a tab to start organizing. We’ll save your groups here so they’re easy to find later.(^^k
+tab-groups-list-empty-button = Create a tab group(^^k
+# Text for a button that, when clicked, creates a new tab group
+tab-groups-list-create-group-button = New Group(^^k
+
 ## Open/saved tab group context menu
 
 # For a tab group open in any window, clicking this will create a new
@@ -371,9 +381,6 @@ tab-group-context-open-saved-group-in-new-window =
 tab-context-add-note =
     .label = ノートを追加
     .accesskey = A
-tab-context-update-note =
-    .label = ノートを更新
-    .accesskey = U
 tab-context-edit-note =
     .label = ノートを編集
     .accesskey = E
