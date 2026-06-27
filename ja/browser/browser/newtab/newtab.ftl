@@ -93,6 +93,9 @@ home-prefs-sports-widget-header =
 # Clock is a widget on New Tab that displays time zones around the world.
 home-prefs-clocks-header =
     .label = 時計
+# Privacy is a widget on New Tab that shows tracking protection activity.
+home-prefs-privacy-header =
+    .label = Privacy
 home-prefs-mission-message2 =
     .message = スポンサーは、より良いウェブを構築するという私たちの使命を支援しています。
 home-prefs-manage-topics-link2 =
@@ -147,6 +150,11 @@ home-prefs-weather-header-srd =
 home-prefs-support-firefox-header-srd =
     .label = { -brand-product-name } を支援
 home-prefs-mission-message-learn-more-link-srd = 支援の詳細情報
+
+## Strings for the Privacy widget
+
+# Context menu item linking to more information about the Privacy widget.
+newtab-privacy-menu-learn-more = Learn more
 
 ## Search box component.
 
@@ -482,6 +490,8 @@ newtab-custom-widget-clock-toggle =
     .label = 時計
 newtab-custom-widget-sports-toggle2 =
     .label = スポーツ
+newtab-custom-widget-privacy-toggle =
+    .label = Privacy
 newtab-custom-widget-section-title = ウィジェット
 newtab-custom-widget-section-toggle =
     .label = ウィジェット
@@ -958,6 +968,8 @@ newtab-widget-timer-reset =
 newtab-widget-timer-menu-notifications = 通知をオフにする
 newtab-widget-timer-menu-notifications-on = 通知をオンにする
 newtab-widget-timer-menu-learn-more = 詳細情報
+newtab-widget-timer-menu-button =
+    .aria-label = Timer options
 # The title displays above a set of top news headlines.
 newtab-daily-briefing-card-title = トップニュース
 newtab-daily-briefing-card-menu-dismiss = 閉じる
@@ -1066,6 +1078,8 @@ newtab-sports-widget-show-less =
 # Toggle that filters the list of teams the user follows
 newtab-sports-widget-followed-only-toggle =
     .label = フォローしたチームのみ
+# Status shown when more matches are being fetched.
+newtab-sports-widget-loading-more = Loading more matches…
 # Watch is a verb (as in watch matches online).
 newtab-sports-widget-watch =
     .label = 観戦
@@ -1145,6 +1159,9 @@ newtab-sports-widget-third-place = 3 位
 newtab-sports-widget-runner-up = 準優勝
 newtab-sports-widget-champions = 優勝
 newtab-sports-widget-world-cup-champions = 2026 ワールドカップ優勝者
+# Compact champions label for the medium-size widget result card; the larger
+# card uses newtab-sports-widget-world-cup-champions.
+newtab-sports-widget-world-cup-champions-short = 2026 Champions
 # Variables:
 #   $date (Date) - The match start time
 newtab-sports-widget-match-time = { DATETIME($date, hour: "2-digit", minute: "2-digit") }
@@ -1152,6 +1169,11 @@ newtab-sports-widget-match-full-time = フルタイム
 newtab-sports-widget-match-halftime = ハーフタイム
 newtab-sports-widget-match-extra-time = 延長
 newtab-sports-widget-match-penalties = ペナルティー
+# Separator shown between two teams in a placeholder match row when no upcoming
+# match details are available yet.
+newtab-sports-widget-match-vs = vs
+# Note shown in the Upcoming tab when no match details are available yet.
+newtab-sports-widget-no-upcoming-matches = Stay tuned for upcoming match details
 
 ## Sports widget live-games pagination. Shown when 2+ matches are live at the same time
 
@@ -1229,6 +1251,8 @@ newtab-sports-widget-team-name-label-eng =
     .label = イングランド
 newtab-sports-widget-team-name-label-sco =
     .label = スコットランド
+# Placeholder used in a match row's aria-label for an undecided team (shown visually as "--").
+newtab-sports-widget-team-tbd = To be determined
 
 ## Sports widget OMC messages
 ## Shown as on-screen messages promoting the Sports widget and World Cup wallpapers.
@@ -1236,6 +1260,8 @@ newtab-sports-widget-team-name-label-sco =
 newtab-sports-widget-message-wallpapers-title = 新しい壁紙でワールドカップをキックオフ
 newtab-sports-widget-message-wallpapers-body = トーナメント試合の日に備えてブラウザーにエネルギー注入
 newtab-sports-widget-message-wallpapers-cta = 壁紙を選ぶ
+newtab-sports-widget-message-wallpapers-semifinals-title = Get a new wallpaper for the semi-finals
+newtab-sports-widget-message-wallpapers-semifinals-body = Set the stage for the World Cup’s biggest matches.
 newtab-sports-widget-message-add-widgets-cta =
     .label = ウィジェットを追加
 newtab-sports-widget-message-day-in-play-title = { -brand-product-name } ウィジェットで試合の日に備えましょう

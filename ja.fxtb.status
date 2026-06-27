@@ -246,3 +246,9 @@ fxsrc | dom, security, toolkit   f6b06c12 (2026-05-31)  mar          sync dom, s
 tbsrc | mail                     0945341f (2026-05-27)  mar          sync mail
 fxsrc | browser, devtools        58e807a3 (2026-06-04)  mar          sync browser, devtools
 
+^---Released!
+[l10n-mozilla-152.0]
+repo  | target dir               gh-rev   (pushdate)    by           comment
+-------------------------------------------------------------------------------------
+fxsrc | browser                  466c89c1 (2026-06-25)  kazushi      sync browser (未翻訳)
+

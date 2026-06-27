@@ -29,6 +29,11 @@ ipprotection-feature-introduction-link-text-2 = 新たな <a data-l10n-name="lea
 # Used for callout for users who expressed interest in privacy in onboarding
 ipprotection-feature-introduction-title-privacy = プライバシーの別のレイヤーを追加
 ipprotection-feature-introduction-link-text-privacy-1 = <a data-l10n-name="learn-more-vpn">{ -brand-product-name } の組み込み VPN</a> はブラウジングの保護に役立ちます。いくつかの場所から選んで接続元のプライバシーを維持しましょう。
+ipprotection-feature-introduction-link-text-privacy-2 = <a data-l10n-name="learn-more-vpn">{ -brand-product-name }’s built-in VPN</a> helps protect your browsing. Choose from multiple locations to keep where you browse more private.
+ipprotection-feature-introduction-link-text-privacy-3 = Get <a data-l10n-name="learn-more-vpn">extra privacy</a> by choosing from multiple locations to hide where you browse.
+ipprotection-feature-introduction-text-summer-promo-1 = Turn it on to keep your browsing more private. <a data-l10n-name="summer-promo-link">Get unlimited bandwidth</a> and more locations to browse from. Now until August 31.
+ipprotection-feature-introduction-title-summer-promo = Got travel plans? Take privacy with you.
+ipprotection-feature-introduction-description-summer-promo = Go farther with { -brand-product-name }’s built-in VPN: more locations, unlimited bandwidth. Now until August 31.
 ipprotection-feature-introduction-link-text-private-browsing-2 = 新たな <a data-l10n-name="learn-more-vpn">組み込み VPN</a> を利用すると、プライベート@@Window@@であっても、あなたの現在位置を隠してユーザーデータを保護します。
 ipprotection-feature-introduction-description-private-browsing = プライベート@@Window@@であっても、ユーザーの現在位置を隠して追加の保護でブラウジングします。
 # Used for callout shown on login to public wi-fi through a captive portal
@@ -47,6 +52,7 @@ ipprotection-feature-introduction-button-secondary-remove = ツールバーか�
 ipprotection-feature-introduction-button-secondary-remove-1 =
     .label = ツールバーから VPN を削除
 ipprotection-feature-introduction-button-get-started = はじめる
+ipprotection-feature-introduction-button-open-vpn = Open VPN
 
 ## Site settings callout
 
@@ -159,6 +165,9 @@ ipprotection-message-continuous-onboarding-intro = VPN をオンにしてあな�
 ipprotection-message-continuous-onboarding-autostart = <a data-l10n-name="setting-link">VPN をオンに設定</a> すると、{ -brand-short-name } の起動時に追加の保護レイヤーが適用されます。
 ipprotection-message-continuous-onboarding-site-settings = VPN を利用するウェブサイトを { -brand-short-name } に記憶させましょう。これらはいつでも <a data-l10n-name="setting-link">設定</a> で変更できます。
 confirmation-hint-ipprotection-navigated-to-excluded-site = このサイトでは VPN がオフです
+ipprotection-open-button = Open { -brand-product-name }
+ipprotection-come-back-title = Come back to try built-in VPN
+ipprotection-message-body-hide-location = Hide your location when you browse in { -brand-product-name } for more privacy and control.
 ipprotection-connection-status-generic-error-title-1 = VPN に接続できませんでした
     .aria-label = VPN に接続できませんでした
 
@@ -224,6 +233,11 @@ ip-protection-exclusions-desc = このリストのサイトを除き、すべて
 #   $usageLeft (string) - The amount of data a user has left in a month (in GB)
 #   $maxUsage (number) - The maximum amount of data a user can use in a month (in GB)
 ip-protection-bandwidth-left-this-month-gb = 今月の残り { $maxUsage } GB 中 { $usageLeft } GB
+# The text inside the <span> is emphasized to highlight the amount of data left.
+# Variables
+#   $usageLeft (string) - The amount of data a user has left in a month (in GB)
+#   $maxUsage (number) - The maximum amount of data a user can use in a month (in GB)
+ip-protection-bandwidth-left-gb-1 = <span data-l10n-name="usage">{ $usageLeft } GB</span> of { $maxUsage } GB left
 # Variables
 #   $usageLeft (string) - The amount of data a user has left in a month (in GB)
 #   $maxUsage (number) - The maximum amount of data a user can use in a month (in GB)
@@ -232,6 +246,11 @@ ip-protection-bandwidth-left-gb = 残り { $maxUsage } GB 中 { $usageLeft } GB
 #   $usageLeft (number) - The amount of data a user has left in a month (in MB)
 #   $maxUsage (number) - The maximum amount of data a user can use in a month (in GB)
 ip-protection-bandwidth-left-this-month-mb = 今月の残り { $maxUsage } GB 中 { $usageLeft } MB
+# The text inside the <span> is emphasized to highlight the amount of data left.
+# Variables
+#   $usageLeft (number) - The amount of data a user has left in a month (in MB)
+#   $maxUsage (number) - The maximum amount of data a user can use in a month (in GB)
+ip-protection-bandwidth-left-mb-1 = <span data-l10n-name="usage">{ $usageLeft } MB</span> of { $maxUsage } GB left
 # Variables
 #   $usageLeft (number) - The amount of data a user has left in a month (in MB)
 #   $maxUsage (number) - The maximum amount of data a user can use in a month (in GB)
